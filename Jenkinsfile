@@ -21,7 +21,7 @@
 library "filevault@master"
 
 vaultPipeline('(built-in)', 11, '3', {
-   vaultStageBuild(['(built-in)'], [11, 17], ['3', '3.6.3'], 'apache_jackrabbit-filevault-package-maven-plugin', [ hasSeparateItExecution: true ]) 
+   vaultStageBuild(['(built-in)'], [11], ['3', '3.6.3'], 'apache_jackrabbit-filevault-package-maven-plugin', [ hasSeparateItExecution: true ]) 
    vaultStageDeploy()
   }
 )
